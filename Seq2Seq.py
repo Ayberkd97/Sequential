@@ -10,9 +10,9 @@ from keras.callbacks import ModelCheckpoint
 import keras.backend as K
 
 
-ball = np.load('../input/trajectories/ball.npy')
-attacker = np.load('../input/trajectories/attacker.npy')
-defender = np.load('../input/trajectories/defender.npy')
+ball = np.load('ball.npy')
+attacker = np.load('attacker.npy')
+defender = np.load('defender.npy')
 
 
 ball_test = ball[28000:,:]
